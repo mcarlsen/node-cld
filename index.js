@@ -6,6 +6,8 @@ module.exports = {
   DETECTED_LANGUAGES : cld2.DETECTED_LANGUAGES,
   ENCODINGS          : cld2.ENCODINGS,
 
+  cld2: cld2,
+
   detect : function (text, options, cb) {
     if (arguments.length < 2) {
       return;
